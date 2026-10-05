@@ -1,7 +1,6 @@
 """A real, trained TF-IDF + LogisticRegression classifier that predicts a
 ticket's category from its free-text description — the "AI" component.
-This is classical ML, evaluated on a held-out test split, NOT an LLM (no
-API access available). See README for the full disclosure.
+This is classical ML, evaluated on a held-out test split, not an LLM.
 
 Evaluation uses a TEMPLATE-LEVEL split (see generate_data.py): a subset of
 each category's description templates is held out entirely from training,
